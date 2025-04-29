@@ -1,0 +1,9 @@
+# Function dependencies, for example:
+# package>=version
+
+
+requests==2.20.0
+https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl 
+## Torch installation for Linux. Pip install torch installs some version of torch which causes problems on the cloud function vm. https://stackoverflow.com/questions/55449313/google-cloud-function-python-3-7-requirements-txt-makes-deploy-fail
+numpy==1.16.1
+pytorch-transformers==1.1.0
